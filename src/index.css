@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+body{
+  @apply bg-black text-white
+}
+}
+
+.shadow-box{
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 15px, rgba(255, 255, 255, 0.15) 0px 0px 3px 1px;
+}
+/* sol 275px */
+/* Sağ 350 */
+/* content flex-1*/
